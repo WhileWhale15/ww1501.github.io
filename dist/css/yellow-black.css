@@ -7290,7 +7290,7 @@ a.close.disabled {
         -webkit-flex: 0 0 33.3333333333%;
         -ms-flex: 0 0 33.3333333333%;
         flex: 0 0 33.3333333333%;
-        max-width: 33.3333333333%
+        max-width: 31.3333333333%
     }
 
     .col-md-5 {
@@ -11405,8 +11405,8 @@ header {
 
 .card-img-overlay {
     position: absolute;
-    padding: 4.35rem;
-    padding-top: 5rem;
+    padding: 3.5rem;
+    padding-top: 4.5rem;
     border-radius: 0;
 }
 
@@ -11585,6 +11585,13 @@ header {
     width: 95%
 }
 
+.card-img-top-2 {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%
+}
+
 .card-img,.card-img-top {
     border-top-left-radius: 0;
     border-top-right-radius: 0
@@ -11751,6 +11758,11 @@ header {
     filter: blur(3px)
 }
 
+.card:hover .card-img-top-2 {
+    opacity: 1;
+    filter: drop-shadow(0px 15px 15px #00000082);
+}
+
 .card-img-top {
     -webkit-transition: opacity .15s linear;
     transition: opacity .15s linear;
@@ -11767,8 +11779,15 @@ header {
     filter: blur(3px)
 }
 
+.card-img-top-2 {
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+    opacity: .75;
+    border-radius: 9px;
+}
+
 .card-body {
-    padding: 1.5rem 0
+    padding: 1.25rem 0
 }
 
 .card-counter {
@@ -13698,6 +13717,10 @@ a.badge-danger.focus,a.badge-danger:focus {
     padding-bottom: 5rem
 }
 
+.section-body-1 {
+    padding-top: 5rem
+}
+
 .section-title {
     position: relative;
     margin-bottom: 3rem;
@@ -14135,7 +14158,7 @@ a.badge-danger.focus,a.badge-danger:focus {
 .timeline-item {
     position: relative;
     padding-left: 1rem;
-    margin-bottom: 2.75rem
+    margin-bottom: 3.9rem
 }
 
 .timeline-item:before {
