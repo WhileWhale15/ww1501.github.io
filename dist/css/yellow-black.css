@@ -11333,12 +11333,25 @@ header {
 }
 
 .card-title {
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    font-size: 24.5px;
+    font-size: 1.75rem;
+}
+
+.card-title-1 {
+    font-size: 24.5px;
+    font-size: 1.75rem;
+    color: white;
 }
 
 .card-subtitle {
-    margin-top: -.75rem;
-    margin-bottom: 0
+    color: white;
+    align-items: center;
+    font-size: 14px;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    display: block;
 }
 
 .card-text:last-child {
@@ -11392,12 +11405,9 @@ header {
 
 .card-img-overlay {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 3.33333rem;
-    border-radius: 0
+    padding: 4.35rem;
+    padding-top: 5rem;
+    border-radius: 0;
 }
 
 .card-portfolio .card-img-overlay {
@@ -11568,7 +11578,7 @@ header {
     opacity: 1
 }
 
-.card-img,.card-img-bottom,.card-img-top {
+.card-img,.card-img-bottom,.card-img-top,.card-img-top-1 {
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -11731,7 +11741,14 @@ header {
 }
 
 .card:hover .card-img-top {
-    opacity: 1
+    opacity: 1;
+    filter: drop-shadow(0px 15px 15px #00000082);
+}
+
+.card:hover .card-img-top-1 {
+    opacity: 1;
+    filter: drop-shadow(0px 15px 15px #00000082);
+    filter: blur(3px)
 }
 
 .card-img-top {
@@ -11741,22 +11758,17 @@ header {
     border-radius: 9px;
 }
 
+.card-img-top-1 {
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+    color: white;
+    opacity: .75;
+    border-radius: 9px;
+    filter: blur(3px)
+}
+
 .card-body {
     padding: 1.5rem 0
-}
-
-.card-title {
-    font-size: 24.5px;
-    font-size: 1.75rem
-}
-
-.card-subtitle {
-    margin-top: -1.125rem;
-    margin-bottom: 1.5rem;
-    font-size: 14px;
-    font-size: 1rem;
-    opacity: .6;
-    font-weight: 400
 }
 
 .card-counter {
