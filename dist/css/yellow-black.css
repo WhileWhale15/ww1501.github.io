@@ -414,7 +414,7 @@ hr {
 
 .initialism {
     font-size: 90%;
-    text-transform: uppercase
+    text-transform: 
 }
 
 .blockquote {
@@ -624,7 +624,7 @@ html {
 }
 
 .lead {
-    text-transform: uppercase
+    text-transform: 
 }
 
 .display-1,.display-2,.display-3,.display-4 {
