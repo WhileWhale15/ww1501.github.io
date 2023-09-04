@@ -8434,7 +8434,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 }
 
 .btn {
-    text-transform: uppercase
+    text-transform: none
 }
 
 .btn:hover {
@@ -9672,8 +9672,8 @@ label {
     line-height: 1;
     font-size: 12.25px;
     font-size: .875rem;
-    font-weight: 700;
-    text-transform: uppercase
+    font-weight: 501;
+    text-transform: none
 }
 
 .form-control {
@@ -14160,7 +14160,7 @@ a.badge-danger.focus,a.badge-danger:focus {
 .timeline-item {
     position: relative;
     padding-left: 1rem;
-    margin-bottom: 3.16rem
+    margin-bottom: 3.9rem
 }
 
 .timeline-item:before {
